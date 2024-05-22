@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+    <style>
+        h2 {
+            color: blue;
+        }
+
+        .line{
+            border: 0;
+            border-top: 2px solid gray;
+            margin: 0;
+
+        }
+        table {
+            width: 100%;
+            border: 2px solid #000; 
+            border-collapse: collapse;
+            text-align: center; 
+        }
+
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd; 
+            text-align: center; 
+        }
+
+        th {
+            background-color: #c9c8c8;
+        }
+
+        tr:nth-child(even) {
+            background-color: #c9c8c8;
+        }
+
+        .nota-baixa {
+            color: red;
+        }
+
+        .nota-alta {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h2>Notas dos alunos</h2>
+    <hr class="line"> <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Alunos</th>
+                <th>Notas da Prova</th>
+                <th>Notas do Trabalho</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Ana Paula</td>
+                <td class="nota-alta">10</td>
+                <td class="nota-alta">8</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td class="nota-alta">7</td>
+                <td class="nota-baixa">5</td>
+            </tr>
+            <tr>
+                <td>Joaquim</td>
+                <td class="nota-alta">9</td>
+                <td class="nota-alta">10</td>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td class="nota-baixa">4.5</td>
+                <td class="nota-alta">6</td>
+            </tr>
+            <tr>
+                <td>Tadeu</td>
+                <td class="nota-baixa">3</td>
+                <td class="nota-baixa">2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.titulo{
+    text-align: center;
+    font-size: 3;
+}
+
+.line{
+    border: 0;
+    border-top: 2px, solid gray;
+    margin: 0;
+}
+
+.graduacao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3;
+    color: blue;
+}
+
+.pos_grad{
+    font-weight: double;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3;
+    color: green;
+}
+
+.mestrado{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3;
+    color: orange;
+}
+
+.doutorado{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3;
+    color: red;
+}
+
+.texto_final{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5;
+    color: magenta;
+}
+
