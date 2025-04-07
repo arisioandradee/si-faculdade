@@ -1,4 +1,4 @@
-# 🛠️ Configuração de Servidor Ubuntu com Samba e Apache2 em Máquina Virtual
+<h1 align="center">AP1 Estágio Supervisionado I - Arisio Andrade</h1> <br>
 
 ## ✅ Etapas Realizadas
 
@@ -88,7 +88,7 @@
      ![Texto alternativo](imagens/foto4.png)
 
 10. 🌐 **Configuração do Virtual Host**
-    - Foi criado um novo arquivo de virtual host: 
+    - Foi criado um novo arquivo de virtual host: <br>
     ![Texto alternativo](imagens/foto5.png)
     - O site foi habilitado com:
       ```bash
